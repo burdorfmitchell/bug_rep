@@ -12,9 +12,8 @@ Can then recreate the conversion attempt I made by running:
 `python3 convert.py`
 
 From there run the two doctored reference simulation files with (in the top directory of this repo):
-"""
+```
 mpirun python scripts/run_param_pyuvsim.py simulations/obsparam_ref_2.2_uvbeam_gleam.yaml
 mpirun python scripts/run_param_pyuvsim.py simulations/obsparam_ref_2.2_uvbeam_skyh5.yaml
-"""
-
+```
 The result can be analyzed with the test.py file in results_data (matplotlib needs to be installed)
