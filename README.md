@@ -2,7 +2,7 @@ The catalog file and uvbeam file need to be downloaded from here:
 https://drive.google.com/drive/folders/14hH-zBhHGddVacc0ncqRWq7ofhGLWfND?usp=drive_link
 
 Filepaths:
-gleam.vot --> issue_rep/catalog_files/gleam.vot
+gleam.vot --> issue_rep/catalog_files/gleam.vot<br/>
 HERA_NicCST_fullfreq.uvbeam --> issue_rep/simulations/telescope_config/HERA_NicCST_fullfreq.uvbeam
 
 From there use the `environment.yml` file to create a conda environment and activate it (this is just the environment.yml file from a relatively recent pull of main on pyuvsim)
