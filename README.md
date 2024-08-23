@@ -3,7 +3,8 @@ https://drive.google.com/drive/folders/14hH-zBhHGddVacc0ncqRWq7ofhGLWfND?usp=dri
 
 Filepaths:<br/>
 gleam.vot --> issue_rep/catalog_files/gleam.vot<br/>
-HERA_NicCST_fullfreq.uvbeam --> issue_rep/simulations/telescope_config/HERA_NicCST_fullfreq.uvbeam
+HERA_NicCST_fullfreq.uvbeam --> issue_rep/simulations/telescope_config/HERA_NicCST_fullfreq.uvbeam<br/>
+NOTE: need to edit `HERA_uvbeam.yaml` to have the correct absolute path to the `HERA_NicCST_fullfreq.uvbeam` file!
 
 From there use the `environment.yml` file to create a conda environment and activate it (this is just the environment.yml file from a relatively recent pull of main on pyuvsim)
 After that locally install pyuvsim from source as usual 
