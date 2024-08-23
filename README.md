@@ -5,7 +5,7 @@ Filepaths:
 gleam.vot --> issue_rep/catalog_files/gleam.vot
 HERA_NicCST_fullfreq.uvbeam --> issue_rep/simulations/telescope_config/HERA_NicCST_fullfreq.uvbeam
 
-From there use the environment.yml file to create a conda environment and activate it (this is just the environment.yml file from a relatively recent pull of main on pyuvsim)
+From there use the `environment.yml` file to create a conda environment and activate it (this is just the environment.yml file from a relatively recent pull of main on pyuvsim)
 After that locally install pyuvsim from source as usual 
 
 Can then recreate the conversion attempt I made by running:
