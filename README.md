@@ -9,7 +9,7 @@ NOTE: need to edit `HERA_uvbeam.yaml` to have the correct absolute path to the `
 From there use the `environment.yml` file to create a conda environment and activate it (this is just the environment.yml file from a relatively recent pull of main on pyuvsim)
 After that locally install pyuvsim from source as usual 
 
-Can then recreate the conversion attempt I made by running:
+Can then recreate the catalog conversion attempt I made by running:
 `python3 convert.py`
 
 From there run the two doctored reference simulation files with (in the top directory of this repo):
